@@ -1,13 +1,109 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(22, 87, 125);
+  font-family: "Roboto";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: "Luckiest Guy";
+  font-size: 100px;
+  color: white;
 }
+
+button {
+  padding: 20px 40px;
+  margin: 5px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+}
+
+#increase-button {
+  background-color: rgb(59, 127, 147);
+  box-shadow: 0px 6px rgb(62, 85, 120);
+  color: rgb(16, 6, 6);
+}
+
+#decrease-button {
+  background-color: #dc8a94;
+  box-shadow: 0px 6px rgb(134, 89, 91);
+  color: rgb(16, 6, 6);
+}
+
+#reset-button {
+  background-color: rgb(235, 49, 46);
+  box-shadow: 0px 6px rgb(172, 3, 3);
+  color: rgb(16, 12, 12);
+}
+
+.gameBody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: fit-content;
+  padding: 30px;
+  background-color: rgb(35, 100, 141);
+  align-self: center;
+  margin-bottom: 50px;
+  margin-top: -40px;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(240, 206, 96);
+  margin-top: 0px;
+}
+
+#scoreBoard-buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.gameQuestions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  background-color: rgb(35, 100, 141);
+  padding: 30px;
+  align-self: center;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(16, 12, 12);
+  margin-top: 0px;
+}
+
+h6 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(240, 206, 96);
+}
+
+#toggleAnswer-button {
+  background-color: rgb(44, 67, 158);
+  color: white;
+}
+
+#getQuestion-button {
+  background-color: rgb(178, 150, 40);
+  color: white;
+}
+
